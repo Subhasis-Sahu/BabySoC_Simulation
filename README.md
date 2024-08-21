@@ -9,6 +9,8 @@
   
   * cd `BabySoC_Simulation`
   * `iverilog -o ./pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module/`
+  * `./pre_synth_sim.out`
+  * `gtkwave pre_synth_sim.vcd`
     
 * To perform GLS :
   
