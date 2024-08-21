@@ -30,7 +30,7 @@ module vsdbabysoc (
       .REF(REF)
    );*/
 
-  pll pll_1 (
+  avsdpll pll_1 (
       .f_vco(CLK),
       .vctrl(ENb_VCO),
       .f_clk_in(REF)
